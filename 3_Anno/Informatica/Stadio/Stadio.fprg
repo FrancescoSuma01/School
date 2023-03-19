@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-11 11:49:39 "/>
+        <attribute name="created" value="VXNlcjtGUkFOQ0VTQ087MjAyMC0xMS0xMTsiMTE6Mjc6NDcgIjsyMjYw"/>
+        <attribute name="edited" value="VXNlcjtGUkFOQ0VTQ087MjAyMC0xMS0xMTsiMTE6NDk6MzkgIjsxOzIzNzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eta, costob, costoc, costotot" type="Real" array="False" size=""/>
+            <declare name="acqucibo" type="String" array="False" size=""/>
+            <declare name="cibodaacquistare, ncibo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanti anni hai?&quot;" newline="True"/>
+            <input variable="eta"/>
+            <if expression="eta&lt;10">
+                <then>
+                    <assign variable="costob" expression="0"/>
+                </then>
+                <else>
+                    <if expression="eta&gt;65">
+                        <then>
+                            <assign variable="costob" expression="0"/>
+                        </then>
+                        <else>
+                            <if expression="eta&lt;18">
+                                <then>
+                                    <assign variable="costob" expression="5"/>
+                                </then>
+                                <else>
+                                    <assign variable="costob" expression="10"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;Desidera acquistare del cibo?&quot;" newline="True"/>
+                    <input variable="acqucibo"/>
+                    <if expression="acqucibo== &quot;si&quot;">
+                        <then>
+                            <output expression="&quot;Digita 1 se vuole un panino 2 se vuole una bibita 3 se le vuole entrambe&quot;" newline="True"/>
+                            <input variable="cibodaacquistare"/>
+                            <if expression="cibodaacquistare=1">
+                                <then>
+                                    <output expression="&quot;Quanti panini vuole  acquistare?&quot;" newline="True"/>
+                                    <input variable="ncibo"/>
+                                    <assign variable="costoc" expression="5*ncibo"/>
+                                </then>
+                                <else>
+                                    <if expression="cibodaacquistare=2">
+                                        <then>
+                                            <output expression="&quot;Quante bibite vuole  acquistare?&quot;" newline="True"/>
+                                            <input variable="ncibo"/>
+                                            <assign variable="costoc" expression="3*ncibo"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Quanti panini e bibite vuole acquistare?&quot;" newline="True"/>
+                                            <input variable="ncibo"/>
+                                            <assign variable="costoc" expression="8*ncibo"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <assign variable="cosototot" expression="costoc+costob"/>
+                            <output expression="&quot;Il costo totale &#232; &quot; &amp; costotot" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Il costo del biglietto &#232; &quot; &amp; costob" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

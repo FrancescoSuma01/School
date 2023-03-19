@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-12 10:19:22 "/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMUU3SVZUQk87MjAyMC0xMC0xMjsiMDk6NTQ6MTQgIjsyNjcx"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMUU3SVZUQk87MjAyMC0xMC0xMjsiMTA6MTk6MjIgIjsxOzI3NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distanza" type="Real" array="False" size=""/>
+            <declare name="costocarburante1l" type="Real" array="False" size=""/>
+            <declare name="consumo" type="Real" array="False" size=""/>
+            <declare name="costototale" type="Real" array="False" size=""/>
+            <declare name="costobigliettoautobus" type="Real" array="False" size=""/>
+            <input variable="Distanza"/>
+            <input variable="costocarburante1l"/>
+            <input variable="consumo"/>
+            <assign variable="costototale" expression="((Distanza*2)/consumo)*costocarburante1l"/>
+            <output expression="costototale" newline="True"/>
+            <input variable="costobigliettoautobus"/>
+            <if expression="costototale &gt; costobigliettoautobus">
+                <then>
+                    <output expression="&quot;E' piu conveniente prendere l'autobus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;E' pi&#249; conveniente prendere l'auto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
