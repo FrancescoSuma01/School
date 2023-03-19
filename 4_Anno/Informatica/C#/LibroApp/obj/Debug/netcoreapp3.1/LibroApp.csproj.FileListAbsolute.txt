@@ -1,0 +1,14 @@
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.exe
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.deps.json
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.runtimeconfig.json
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.runtimeconfig.dev.json
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.dll
+C:\Users\melle.catiuscia\source\repos\LibroApp\bin\Debug\netcoreapp3.1\LibroApp.pdb
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.Form1.resources
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.csproj.GenerateResource.cache
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.AssemblyInfoInputs.cache
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.AssemblyInfo.cs
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.csproj.CoreCompileInputs.cache
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.dll
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.pdb
+C:\Users\melle.catiuscia\source\repos\LibroApp\obj\Debug\netcoreapp3.1\LibroApp.genruntimeconfig.cache
