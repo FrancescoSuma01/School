@@ -1,0 +1,11 @@
+CREATE TABLE zona(idzona int(4) primary key, descrizione varchar (50));
+
+CREATE TABLE categoria(idcategoria int (4) primary key, descrizione varchar (50));
+
+CREATE TABLE attivita(idattivita int (4) primary key, descrizione varchar (30), idcategoria int (4) references categoria (idcategoria));
+
+CREATE TABLE socio(idsocio int primary key, cognome varchar (30) not null, nome varchar (30), indirizzo varchar (50), idzona int (4) references zona(idzona));
+
+CREATE TABLE disponibile(idattivita int (4) not null references attivita(idattivita), idsocio int not null references socio(idsocio), primary key (idattivita, idsocio));
+                                       
+CREATE TABLE IF NOT EXISTS prestazione(idPrestazione int primary key, dataP date, numOre int(4), fornitore int references soci(idSocio), ricevente int references socio(idSocio), idAttivita int(4) references attivita(idAttivita))
