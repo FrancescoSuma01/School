@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+  <head>
+   <title>
+    Francesco Suma
+   </title>
+  </head>
+  <body bgcolor="#006400">
+    <h1><center><FONT COLOR="Red"> Il MODELLO DI PROGRAMMAZIONE</font></center></h1>
+	<hr>
+	<br>
+	  <p><font color="white">É l'insieme degli elementi in cui il programmatore, tramite il linguaggio Assembly e l'ambiente di Debug, riesce ad accedere.
+	     É composto da due parti
+	  </p>
+	  <ul>
+	   <li>I "REGISTRI", si suddividono anch'essi in due parti quelli specializzati e quelli generali, quelli specializzati hanno delle mansioni fisse mentre quelli generali hanno varie mansioni e possono essere usati dal programmatore per vari scopi.
+	   <li>L'"ALU" (arithmetic logic unit), esegue la trasformazione dei dati presenti nei registri.
+       </ul>
+	<br>
+	<p><img src="https://welcometothetechnology.altervista.org/wp-content/uploads/2016/08/Assembly.jpg" align=middle width=610 height=390></p>
+	<br>
+	<h2><font color=red size=5><center>PC (Programm Center)</center></font></h2>
+	  <p>É un registro alla quale il programmatore accede parzialmente per modificare il flusso sequenziale del programma. Il PC contiene l'indirizzo di memoria dell'istruzione successiva. Per questo motivo viene definito PUNTATORE. Il contenuto del PC viene incrementato dalla CU.
+	  </p>
+	<br>
+	<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/IBM_701console.jpg" align=middle width=300 height=400></p>
+	<h3><font color=red size=5><center>PSW (Process Status Word)</center></font></h3>
+	  <p>Questo è un registro interno che viene anche detto "FLAG", questo nome deriva dal fatto che i suoi bit funzionano da bandiera per i risultati delle
+	    operazioni aritmetico-logiche dell'ultima istruzione. Un esempio possono essere:
+	  </p>
+	  <ol>
+		<li>il bit ZF(Zero Flag) segna che il risulto dell'ultima operazione è 0;
+		<li>il bit CF(Carry Flag) segna se nel risultato c'è un riporto.
+	  </ol>
+	<p>Ad ogni operazione eseguita il risultato viene aggiornato dall'ALU. Questo registro è utile specialmente per la costruzione di un programma, perchè 
+	valutando il contenuto dei flag di questo registro permettono di variareil flusso sequenziale. I FLAG principali sono: 
+	</p>
+	<ul>
+	  <li><i>ZERO</i>, vale 1 solo se il risultato dell'ultima operazione vale 0, mentre vale 0 se il risultato è diverso da zero;
+	  <li><i>CARRY</i>, vale uno se nell'operazione c'è un riporto, questultimo non viene sommato ma viene messo nel CF;
+	  <li><i>OVERFLOW</i>, vale 1 quando il risultato dell'ultima operazione ha segno diverso da quello degli operandi;
+	  <li><i>PARITY</i>, va a 1 quando i bit a 1 del risultato è pari;
+	  <li><i>SIGN</i>, va a 1 quando il risultato dell'ultima operazione è negativo, copiando in SF il bit più significativo con il segno secondo la codifica in complemento a 2.
+	</ul>
+ </body>
