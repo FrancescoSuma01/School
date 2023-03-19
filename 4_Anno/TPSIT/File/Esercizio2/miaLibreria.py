@@ -1,0 +1,5 @@
+
+
+
+def cercaParola(parola):
+    pass
