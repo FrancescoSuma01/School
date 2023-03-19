@@ -1,0 +1,11 @@
+num is: 51
+num is: 82
+num is: 28
+num is: 94
+num is: 93
+num is: 0.59798
+num is: 0.437666
+num is: 0.948668
+num is: 0.299753
+num is: 0.17185
+ok
