@@ -1,0 +1,20 @@
+William è pazzo per il poker cosmico!
+In questo gioco, al posto delle carte vengono utilizzate monete di tre colori (r, g, b).
+Il gioco è semplice, il casinò definisce due numeri A e C come coefficienti per il calcolo delle scommesse e il
+la vittoria del giocatore viene calcolata con la formula:
+A * (r2 + g2+ b2) + C * min {r, g, b}
+
+dove r, g, b sono il numero di gettoni rossi, verdi e blu nel gioco.
+William sta affrontando il seguente compito: ci sono già r rosso, g verde eb blu sul tavolo, ma con
+un'ultima mossa, può aggiungere sul tavolo esattamente un gettone di qualsiasi colore.
+Aiutalo a scegliere un colore per massimizzare la sua vittoria.
+Ingresso
+La configurazione del gioco, ed è formata da 5 numeri interi: A, C, r, ge b.
+Produzione
+Devi scrivere il colore che William dovrebbe scegliere; in altre parole, devi scrivere uno dei file
+stringa seguente: ROSSO, VERDE o BLU.
+Esempi
+Ingresso: 2 10 2 4 4 Uscita: ROSSO
+Ingresso: 1 2 3 4 5 Uscita: BLU
+Ingresso: 4 2 7 7 7 Uscita: VERDE
+Implementa una funzione con 5 parametri per definire il valore della formula che deve essere restituito.
