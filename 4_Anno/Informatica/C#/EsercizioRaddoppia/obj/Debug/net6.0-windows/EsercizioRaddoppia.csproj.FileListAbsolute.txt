@@ -1,0 +1,17 @@
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.Form1.resources
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.AssemblyInfoInputs.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.AssemblyInfo.cs
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\bin\Debug\net6.0-windows\EsercizioRaddoppia.exe
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\bin\Debug\net6.0-windows\EsercizioRaddoppia.deps.json
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\bin\Debug\net6.0-windows\EsercizioRaddoppia.runtimeconfig.json
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\bin\Debug\net6.0-windows\EsercizioRaddoppia.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\bin\Debug\net6.0-windows\EsercizioRaddoppia.pdb
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\refint\EsercizioRaddoppia.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.pdb
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\EsercizioRaddoppia.genruntimeconfig.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\EsercizioRaddoppia\obj\Debug\net6.0-windows\ref\EsercizioRaddoppia.dll
