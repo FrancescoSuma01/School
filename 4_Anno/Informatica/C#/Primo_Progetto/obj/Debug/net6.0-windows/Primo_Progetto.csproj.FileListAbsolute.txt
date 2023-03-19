@@ -1,0 +1,17 @@
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\bin\Debug\net6.0-windows\Primo_Progetto.exe
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\bin\Debug\net6.0-windows\Primo_Progetto.deps.json
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\bin\Debug\net6.0-windows\Primo_Progetto.runtimeconfig.json
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\bin\Debug\net6.0-windows\Primo_Progetto.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\bin\Debug\net6.0-windows\Primo_Progetto.pdb
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.Form1.resources
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.AssemblyInfoInputs.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.AssemblyInfo.cs
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\refint\Primo_Progetto.dll
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.pdb
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\Primo_Progetto.genruntimeconfig.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Primo_Progetto\obj\Debug\net6.0-windows\ref\Primo_Progetto.dll

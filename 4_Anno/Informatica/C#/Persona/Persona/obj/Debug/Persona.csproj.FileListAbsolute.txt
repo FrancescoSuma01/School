@@ -1,0 +1,10 @@
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\bin\Debug\Persona.exe.config
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\bin\Debug\Persona.exe
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\bin\Debug\Persona.pdb
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.csproj.AssemblyReference.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.Form1.resources
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.Properties.Resources.resources
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.csproj.GenerateResource.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.csproj.CoreCompileInputs.cache
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.exe
+C:\Users\franc\Documents\Scuola\4°Anno\Informatica\C#\Persona\Persona\obj\Debug\Persona.pdb
