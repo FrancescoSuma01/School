@@ -26,25 +26,25 @@ nomeParametro tipo, FOREIGN KEY (nomeParametro) REFERENCES nomeTabellaEsterna(no
 
 Utilizzare l'opzione '**ON DELETE CASCADE**' per specificare se si desidera che le righe vengano eliminate in una tabella figlio quando le righe corrispondenti vengono eliminate nella tabella padre. '**ON UPDATE CASCADE**' aggiorna le righe corrispondenti della tabella figlio quando vengono aggiornate le righe della tabella padre.
 
-Prodotto Cartesiano
+Prodotto Cartesiano: è un'operazione che combina tutte le tuple di una tabella con tutte le tuple di un'altra tabella. Il risultato del prodotto cartesiano è una nuova tabella contenente tutte le combinazioni di tuple delle due tabelle.
 
 ```SQL
 select * from tabella1, tabella2;
 ```
 
-Inner Join
+Inner Join: restituisce solo le tuple che corrispondono in entrambe le tabelle.
 
 ```SQL
 select * from tabella1 inner join tabella2 on tabella1.colonna1 = tabella2.colonna2;
 ```
 
-Natural Join
+Natural Join: è un'operazione di join che combina due tabelle sulla base delle colonne con gli stessi nomi e gli stessi tipi di dati.
 
 ```SQL
 select * from tabella1 natural join tabella2;
 ```
 
-Right outer join
+Right outer join: restituisce tutte le tuple della tabella di destra e solo le tuple della tabella di sinistra che corrispondono.
 
 ```SQL
 select * from tabella1 right outer join tabella2 on tabella1.colonna1 = tabella2.colonna2;
