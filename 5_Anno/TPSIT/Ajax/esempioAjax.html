@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX: esercizio 1</title>
+    <script>
+        function mostra(str){
+            if(str.length == 0){
+                document.getElementById("risposta").innerHTML="";
+                return;
+            }
+    
+            if(window.XMLHttpRequest){
+                xmlhttp = new XMLHttpRequest();
+            }else{
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            xmlhttp.onreadystatechange = function(){
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    document.getElementById("risposta").innerHTML = xmlhttp.responseText;
+                }
+            }
+
+            xmlhttp.open("GET", "php_con_ajax.php?stringa=" + str, true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+    <p><b>Scrivere nelle caselle le iniziali</b></p>
+    <form>
+        Nome: <input type="text" onkeyup="mostra(this.value)">
+    </form>
+    <p>Nominativi trovati: <div id="risposta"></div></p>
+</body>
+</html>
