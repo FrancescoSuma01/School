@@ -53,19 +53,43 @@ select * from tabella1 right outer join tabella2 on tabella1.colonna1 = tabella2
 Funzioni di aggregazione
 
 - SUM: calcola la somma dei valori in una colonna
-AVG: calcola la media dei valori in una colonna
-MAX: restituisce il valore massimo in una colonna
-MIN: restituisce il valore minimo in una colonna
-COUNT: restituisce il numero di righe in una tabella o il numero di valori non nulli in una colonna
-GROUP BY: raggruppa le righe in base a una o più colonne e applica una funzione di aggregazione a ogni gruppo
-HAVING: specifica una condizione per filtrare i risultati ottenuti con GROUP BY
 
 ```SQL
 SELECT SUM(nomedelcampo) FROM nomedellatabella;
+```
+
+- AVG: calcola la media dei valori in una colonna
+
+```SQL
 SELECT AVG(nomedelcampo) FROM nomedellatabella;
+```
+
+- MAX: restituisce il valore massimo in una colonna
+
+```SQL
 SELECT MAX(nomedelcampo) FROM nomedellatabella;
+```
+
+- MIN: restituisce il valore minimo in una colonna
+
+```SQL
 SELECT MIN(nomedelcampo) FROM nomedellatabella;
+```
+
+- COUNT: restituisce il numero di righe in una tabella o il numero di valori non nulli in una colonna
+
+```SQL
 SELECT COUNT(*) FROM nomedellatabella; (per il conteggio di tutte le righe nella tabella)
+```
+
+- GROUP BY: raggruppa le righe in base a una o più colonne e applica una funzione di aggregazione a ogni gruppo
+
+```SQL
 SELECT nomecampo1, nomecampo2, COUNT(nomecampo3) FROM nomedellatabella GROUP BY nomecampo1, nomecampo2;
+```
+
+- HAVING: specifica una condizione per filtrare i risultati ottenuti con GROUP BY
+
+```SQL
 SELECT nomecampo1, nomecampo2, COUNT(nomecampo3) FROM nomedellatabella GROUP BY nomecampo1, nomecampo2 HAVING COUNT(nomecampo3) > 10;
 ```
